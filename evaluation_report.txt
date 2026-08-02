@@ -1,0 +1,62 @@
+============================================================
+5-Fold Stratified Cross Validation Results
+============================================================
+
+Fold 1 Accuracy : 100.00%
+Fold 2 Accuracy : 92.00%
+Fold 3 Accuracy : 96.00%
+Fold 4 Accuracy : 100.00%
+Fold 5 Accuracy : 100.00%
+Best Fold : 1 with Accuracy : 100.00%
+
+Average Accuracy : 97.60%
+Precision        : 98.19%
+Recall           : 97.60%
+Weighted F1      : 97.53%
+
+
+============================================================
+Gesture Recognition Model Evaluation
+============================================================
+
+Per-Class Accuracy
+------------------------------------------------------------
+swipe_left     : 100.00%
+swipe_right    : 92.00%
+circle         : 100.00%
+wave           : 100.00%
+none           : 100.00%
+
+Total Parameters    : 279,557
+Trainable Params    : 279,557
+Model Size (MB)     : 1.07
+
+============================================================
+Classification Report
+============================================================
+
+              precision    recall  f1-score   support
+
+  swipe_left     1.0000    1.0000    1.0000        25
+ swipe_right     1.0000    0.9200    0.9583        25
+      circle     0.9615    1.0000    0.9804        25
+        wave     0.9615    1.0000    0.9804        25
+        none     1.0000    1.0000    1.0000        25
+
+    accuracy                         0.9840       125
+   macro avg     0.9846    0.9840    0.9838       125
+weighted avg     0.9846    0.9840    0.9838       125
+
+Accuracy : 98.40%
+Precision: 98.46%
+Recall   : 98.40%
+F1 Score : 98.38%
+
+============================================================
+Confusion Matrix
+============================================================
+[[25  0  0  0  0]
+ [ 0 23  1  1  0]
+ [ 0  0 25  0  0]
+ [ 0  0  0 25  0]
+ [ 0  0  0  0 25]]
